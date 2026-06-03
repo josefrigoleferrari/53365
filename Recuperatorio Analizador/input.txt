@@ -1,0 +1,4 @@
+repetir {
+    imprimir("Hola");
+    imprimir("Mundo");
+} hasta verdadero;

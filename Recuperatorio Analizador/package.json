@@ -1,0 +1,12 @@
+{
+  "name": "recuperatorio-analizador",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "antlr4 -Dlanguage=JavaScript -visitor -listener -o generated Analizador.g4",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}
