@@ -1,0 +1,5 @@
+repetir {
+    imprimir("Inicio");
+    imprimir("Fin");
+    salir;
+} hasta falso;
